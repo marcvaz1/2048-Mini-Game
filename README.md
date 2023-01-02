@@ -2,9 +2,9 @@
 CIS 1200 Game Project README
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 
-===================
+
 =: Core Concepts :=
-===================
+
 
   1. 2D Arrays. I use 2D arrays to make the game board. 2048 is played on a 4x4 game board,
      so I use an integer 2D array to store the values at each index of the board. The 2D array
@@ -28,9 +28,9 @@ CIS 1200 Game Project README
      functions behave appropriately. This allowed me to troubleshoot and also make sure that there were no bugs in
      my code.
 
-=========================
+
 =: My Implementation :=
-=========================
+
 
   I have three classes, Game2048, GameBoard, and RunGame2048. Game2048 contains the bulk of my functionality.
   I have private variables including the board, the score, a collection of the past moves, and a collection
@@ -61,8 +61,7 @@ CIS 1200 Game Project README
     colors and font.
 
 
-========================
 =: External Resources :=
-========================
+
 
 https://docs.oracle.com/javase/7/docs/api/javax/swing/JOptionPane.html
